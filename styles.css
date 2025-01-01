@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header .navbar-brand {
+    color: #ffc107 !important;
+}
+
+header .nav-link {
+    color: #ffffff !important;
+}
+
+header .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+section {
+    margin-top: 60px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Darker variant of navbar */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* About Me Page */
+#about {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skill-card {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 16px;
+}
+
+/* Education Section */
+.education-box {
+    margin-top: 40px;
+}
+
+.education-item {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.education-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    font-size: 16px;
+}
+
+/* Projects Page */
+#projects .card {
+    margin-bottom: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#projects .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffc107;
+    margin-bottom: 5px;
+}
+
+#projects .card-text {
+    font-size: 14px;
+}
+
+/* Contact Page */
+#contact {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#contact h2 {
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #ffc107;
+}
+
+.form-control:focus {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #ffc107;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+
+#home .description-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 800px;
+    height: 500px;
+}
+#home .description-box h1{
+    color: #ffc107;
+}
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
